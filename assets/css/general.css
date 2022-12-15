@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;800&display=swap');
+
+:root {
+    font-size: 62.5%;
+    font-family: "Rubik";
+
+    --primary: #4d181e;
+    --primary-dark: #401218;
+    --secondary: #6c262e;
+
+    background: url("../img/fond-grenat.png") fixed;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+body {
+    height: 100%;
+}
+
+.bg {
+    padding-top: 12rem;
+    text-align: center;
+}
+
+#bg-index {
+    padding: 28rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}

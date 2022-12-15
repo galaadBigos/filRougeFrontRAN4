@@ -1,0 +1,67 @@
+.joueurs-container {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    width: 65%;
+    min-width: 400px;
+    height: auto;
+    margin: 3rem auto 0;
+    padding: 3rem 5rem;
+    opacity: 0;
+    animation: 0.8s app forwards;
+}
+
+@keyframes app {
+    from {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.joueur-presentation {
+    width: 24%;
+    min-width: 23rem;
+    height: auto;
+    padding: 3rem 3rem;
+    margin: 1rem 0.5rem;
+    border: 2px solid var(--primary);
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+
+.joueur-presentation:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.joueur-presentation ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.joueur-presentation img {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.joueur-presentation ul li{
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 0.8rem;
+}
+
+#joueur-id {
+    font-weight: bold;
+    color: #333;
+    
+}
+
